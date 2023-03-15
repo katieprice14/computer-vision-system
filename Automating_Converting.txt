@@ -1,0 +1,7 @@
+cd /d D:\22023
+
+for /r %I in (*.bag) do mkdir %~pI%~nI
+
+for /r %I in (*.bag) do rs-convert.exe -d -i %I -p %~pI%~nI\
+
+for /r %I in (*.bag) do rs-convert.exe -d -i %I -v %~pI%~nI\
