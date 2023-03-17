@@ -13,7 +13,7 @@ A sample directory
 
 python (any version 3.6 to 3.9)
 
-code editor (Visual Studio Code is what I recommend)
+code editor (Visual Studio Code or google colab is what I recommend)
 
 Realsense SDK https://www.intelrealsense.com/sdk-2/
 
