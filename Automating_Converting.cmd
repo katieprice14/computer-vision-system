@@ -1,7 +1,7 @@
 #rs.convert.exe all must exist within this directory, make a copy
 #chnage the directory to where the .bag files are
 
-cd /d D:\22023
+cd /d E:\Bag_files\2-22-23
 
 #Creates a directory with the same name as the .bag file
 for /r %I in (*.bag) do mkdir %~pI%~nI
