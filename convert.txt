@@ -1,4 +1,15 @@
+:: Change the first line on this fine were it says "D:\04172023" To reflect the location of the .bag files you are looking to convert
+:: copy the rs-convert.exe from the Intel Software into the directory where the bag files are located
+:: download this file as a .bat file, open file to run
+
+:: Moves to the directory
 cd /d D:\04172023
+
+:: Creates a directory for each of the .bag files
 for /r %I in (*.bag) do mkdir %~pI%~nI
+
+:: Converts each bag file into .png files and places them in the corresponding directory
 for /r %I in (*.bag) do rs-convert.exe -d -i %I -p %~pI%~nI\
+
+:: Converts each bag file into .csv files and places them in the corresponding directory
 for /r %I in (*.bag) do rs-convert.exe -d -i %I -v %~pI%~nI\
