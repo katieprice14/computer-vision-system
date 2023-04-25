@@ -9,9 +9,13 @@ The image processing python script
 
 A sample directory
 
+R Script for Cross Validation
+
 ## Requirments: Windows
 
 python (any version 3.6 to 3.9)
+
+R and R studio
 
 code editor (Visual Studio Code or google colab is what I recommend)
 
