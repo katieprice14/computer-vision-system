@@ -28,3 +28,5 @@ Realsense SDK install instructions for Windows https://www.youtube.com/watch?v=E
 python (any version since 3.6 to 3.9)
 
 code editor (Visual Studio Code is what I reccomend)
+
+R and R studio
